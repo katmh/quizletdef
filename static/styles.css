@@ -1,0 +1,30 @@
+body {
+    color: #232323;
+}
+
+.container {
+    width: 75%;
+    margin: 2rem auto;
+}
+
+label, textarea, input {
+    display: block;
+    margin: 1rem 0;
+}
+
+label {
+    font: 700 2rem system-ui;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    font: 1.5rem/150% system-ui;
+    padding: .75rem 1rem;
+    border-color: #343434;
+    height: 70vh;
+}
+
+input {
+    font: 2rem system-ui;
+}

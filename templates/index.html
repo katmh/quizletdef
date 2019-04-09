@@ -1,0 +1,10 @@
+{% include 'head.html' %}
+
+<form action="/" method="POST">
+    {{ form.csrf_token }}
+    {{ form.terms.label }}
+    {{ form.terms }}
+    <input type="submit">
+</form> 
+
+{% include 'foot.html' %}
